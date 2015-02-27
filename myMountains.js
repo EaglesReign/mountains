@@ -3,7 +3,7 @@
 //2/26/15
 //Dataset for the mountains repo
 
-var MOUNTAINS = [
+var MYMOUNTAINS = [
   {name: "Kangchenjunga", height: 8586, country: "India"},
   {name: "Lhotse", height: 8516, country: "China"},
   {name: "Cho Oyu", height: 8201, country: "China"},
@@ -14,4 +14,4 @@ var MOUNTAINS = [
 ];
 
 if (typeof module != "undefined" && module.exports)
-  module.exports = MOUNTAINS;
+  module.exports = MYMOUNTAINS;
